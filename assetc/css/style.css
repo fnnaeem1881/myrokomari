@@ -15,9 +15,11 @@ li{
 a:hover{
     text-decoration: none;
 }
-html body{
-    background-color: rgb(245, 244, 244);
+html{
     scroll-behavior: smooth!important;
+}
+body{
+    background-color: rgb(245, 244, 244);
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
 }
@@ -132,7 +134,6 @@ hr{
 }
 header{
     background-color: white;
-    overflow: hidden;
 }
 
 .wrap .navi ul li{
