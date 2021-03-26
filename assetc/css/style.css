@@ -132,6 +132,7 @@ hr{
 }
 header{
     background-color: white;
+    overflow: hidden;
 }
 
 .wrap .navi ul li{
