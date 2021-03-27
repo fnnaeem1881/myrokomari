@@ -1,3 +1,8 @@
+// SideMobail Navbar Start
+
+// SideMobail Navbar End
+
+
 window.onscroll = function() {myFunction()};
 
 var wrappy = document.getElementById("wrappy");
@@ -11,4 +16,6 @@ function myFunction() {
     wrappy.classList.remove("sticky");
   }
 }
+
+
 
