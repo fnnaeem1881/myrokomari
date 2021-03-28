@@ -14,6 +14,9 @@
 	<link rel="stylesheet" type="text/css" href="assetc/css/style.css" media="all" />
 		<!-- 	responsive link -->
 	<link rel="stylesheet" type="text/css" href="assetc/css/responsive.css" media="all" />
+    <!-- Nivo Slider Css Link -->
+    <link rel="stylesheet" href="assetc/css/nevo-default.css">
+    <link rel="stylesheet" href="assetc/css/nivo-slider.css">
 	<!-- fontawosme link -->
 	<script src="https://kit.fontawesome.com/8dcb513de9.js" crossorigin="anonymous"></script>
 	<!-- google font link -->
@@ -310,18 +313,50 @@
         </div>
     </div>
 
-
-
-
 <!-- Mobail SideNavbar Code End -->
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Nivo SLider Design Start -->
+
+<section id="Nivo-Slider">
+    <div class="container">
+        <div class="slider-wrapper theme-default">
+            <div id="NivoSlider" class="nivoSlider"> 
+                <a href="#">
+                    <img src="assetc/images/slider1.png" data-thumb="assetc/images/slider1.png" alt="" title="" />
+                </a> 
+                <a href="#">
+                    <img src="assetc/images/slider2.png" data-thumb="assetc/images/slider2.png" alt="" title="" />
+                </a> 
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous"></script>
     <script src="/assetc/js/costom.js"></script>
+    <script type="text/javascript" src="assetc/js/jquery.nivo.slider.js"></script>
     <script>
         var typed = new Typed('#SearchTypedJs', {
             strings: ["Search by books (ex. ক্রীতদাসের হাসি, The Power of Habit)", "Search by Authors ( ex. চমক হাসান, J. K. Rowling)","Search by Electronics (Ex: Keyboard, pen drive) "],
@@ -368,6 +403,15 @@
             });
             });
                 </script>
+
+                <!-- Nivo Slider Script -->
+                <script type="text/javascript">
+                    $(window).load(function() {
+                        $('#NivoSlider').nivoSlider();
+                    });
+                </script> 
+                    <!-- ///////// -->
+                
 </body>
 </html>
 

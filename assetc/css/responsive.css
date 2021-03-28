@@ -86,17 +86,18 @@
 /*--------------------------------------------------------*/
 
 
-@media(max-width: 775px){
-
-}
 
 /*--------------------------------------------------------*/
 /*--------------------------------------------------------*/
 
 
 @media(max-width: 575px){
+    .container{
+        width: 90%!important;
+        margin: auto!important;
+    }
     .navBtn {
-        width: 3%;
+        width: 10%;
         float: left;
     }
     .mobail-NavLogo img {
@@ -104,7 +105,7 @@
         padding: 5px 0px;
     }
     .mobail-NavLogo {
-        width: 11%;
+        width: 35%;
         float: left;
     }
     .mobail-NavLogo img {
@@ -112,11 +113,12 @@
         padding: 5px 0px;
     }
     .mobail-cart-user {
-        width: 23%;
+        width: 55%;
         float: left;
+        padding-top: 4px;
     }
     .MobailSearchWrap input {
-        width: 31%;
+        width: 85%;
         border: solid #d1ddea 1px;
             border-bottom-color: rgb(209, 221, 234);
             border-bottom-style: solid;
@@ -137,9 +139,9 @@
     }
     .MobailSearchWrap i {
         background: #0397d3;
-        width: 5%;
+        width: 13%;
         color: #ffffff;
-        padding: 14px 18px;
+        padding: 15px 15px;
         border: none;
     }
 }
@@ -164,12 +166,23 @@
 @media(max-width:450px){
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-    .mobail-cart-user {
+    .mobail-NavLogo {
+        width: 45%;
+        float: left;
+    }
+    .MobailSearchWrap i {
+        background: #0397d3;
         width: 15%;
+        color: #ffffff;
+        padding: 15px 15px;
+        border: none;
+    }
+    .mobail-cart-user {
+        width: 45%;
         float: left;
     }
     .MobailSearchWrap input {
-        width: 23%;
+        width: 85%;
         border: solid #d1ddea 1px;
             border-bottom-color: rgb(209, 221, 234);
             border-bottom-style: solid;
@@ -199,12 +212,24 @@
 
 
 @media(max-width: 350px){
+    .navBtn {
+        width: 13%;
+        float: left;
+    }
+    .mobail-NavLogo {
+        width: 45%;
+        float: left;
+    }
+    .mobail-NavLogo img {
+        width: 90%;
+        padding: 5px 0px;
+    }
     .mobail-cart-user {
-        width: 8%;
+        width: 42%;
         float: left;
     }
     .MobailSearchWrap input {
-        width: 15%;
+        width: 75%;
         border: solid #d1ddea 1px;
             border-bottom-color: rgb(209, 221, 234);
             border-bottom-style: solid;
@@ -222,6 +247,13 @@
         font-size: 16px;
         font-family: 'Lato';
         color: #a8a8a8d9;
+    }
+    .MobailSearchWrap i {
+        background: #0397d3;
+        width: 22%;
+        color: #ffffff;
+        padding: 15px 15px;
+        border: none;
     }
 }
 

@@ -175,18 +175,12 @@ nav .wrapper{
 }
 .nav-links{
     margin-top: 0;
-    /*! display: flex; */
-    /*! justify-content: space-between; */
-    /*! align-items: center; */
     text-align: center;
 }
 .nav-links li{
     list-style-type: none;
-    /* margin-inline: 3px;
-    margin-top: 10px; */
     display: inline-block;
     padding: 0px 23px;
-    text-align: ;
 }
 
 .nav-links li a{
@@ -461,4 +455,10 @@ nav .wrapper li a i:hover{
 }
 .other-Side-Nav-Mneu ul li a i {
     padding-right: 10px;
+}
+.nivo-controlNav {
+    display: none;
+}
+.slider-wrapper.theme-default {
+    padding: 20px 0px;
 }
