@@ -242,6 +242,7 @@ nav .wrapper li a i:hover{
     /*! align-items: center; */
     /*! justify-content: space-between; */
     width: 100%;
+    z-index: 10;
 }
 .mega-box .content .row{
     margin-inline: 70px;
@@ -462,3 +463,10 @@ nav .wrapper li a i:hover{
 .slider-wrapper.theme-default {
     padding: 20px 0px;
 }
+
+
+/* Nivo Slider End */
+
+/* Bannner Design */
+
+
