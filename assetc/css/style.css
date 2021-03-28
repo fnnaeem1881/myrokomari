@@ -326,14 +326,32 @@ nav .wrapper li a i:hover{
   }
   
 .navBtn {
-    width: 15%;
+    width: 7%;
     float: left;
   }
-  .mobail-NavSearch {
-    width: 60%;
-    float: left;
-  }
+
   .mobail-cart-user {
-    width: 25%;
+    width: 50%;
     float: left;
+  }
+.mobail-NavLogo {
+  width: 43%;
+  float: left;
+}
+.mobail-NavLogo img {
+  width: 40%;
+  padding: 5px 0px;
+}
+.mobail-cart-user i {
+  padding: 10px 12px;
+  float: right;
+  font-size: 20px;
+  color: #000;
+}
+
+#MobailHeader {
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    padding: 3px 0px;
+    box-shadow: 6px 1px 1px 1px #ddd;
   }

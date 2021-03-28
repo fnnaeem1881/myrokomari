@@ -93,7 +93,26 @@
 
 
 @media(max-width: 575px){
-
+    .navBtn {
+        width: 3%;
+        float: left;
+    }
+    .mobail-NavLogo img {
+        width: 17%;
+        padding: 5px 0px;
+    }
+    .mobail-NavLogo {
+        width: 11%;
+        float: left;
+    }
+    .mobail-NavLogo img {
+        width: 65%;
+        padding: 5px 0px;
+    }
+    .mobail-cart-user {
+        width: 23%;
+        float: left;
+    }
 }
 
 /*--------------------------------------------------------*/
@@ -102,24 +121,24 @@
 
 
 @media(min-width: 575px){
-
-
+   
 }
 
 /*--------------------------------------------------------*/
 /*--------------------------------------------------------*/
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
 
 /*--------------------------------------------------------*/
 /*--------------------------------------------------------*/
 
 
 @media(max-width:450px){
-
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .mobail-cart-user {
+        width: 15%;
+        float: left;
+    }
 }
 
 /*--------------------------------------------------------*/
@@ -127,7 +146,10 @@
 
 
 @media(max-width: 350px){
-
+    .mobail-cart-user {
+        width: 8%;
+        float: left;
+    }
 }
 
 /*--------------------------------------------------------*/
