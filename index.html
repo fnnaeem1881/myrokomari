@@ -155,8 +155,57 @@
             <div class="MobailMenuWrap">
                 <div class="navBtn">
                     <div id="mySidenav" class="sidenav">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                       <h1>Naeem</h1>
+                       <div class="MobailSideNav">
+                           <div class="iconHome">
+                               <i class="fa fa-home" aria-hidden="true"></i>
+                               <b>Home</b>
+                           </div>
+                           <div class="sideCloseNav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                           </div>
+                       </div>
+                       <div class="MobailSideNavMenu">
+                            <div id="accordion">
+                                <div class="card">
+                                      <div class="card-header SideCardPa" id="headingOne">
+                                             <h5 class="mb-0">
+                                            <button class="btn btn-link SideNavBtn" data-toggle="collapse" data-target="#collapseOne" aria-haspopup="true" aria-expanded="false" aria-controls="collapseOne">
+                                                <div class="MobailListMenu">
+                                                    <div class="SideMenuName">
+                                                        <i class="fas fa-book-reader"></i><b> বই </b> 
+                                                    </div>
+                                                    <div class="sideNAvmenuArrow">
+                                                        <i id="rmclass" class="fa fa-angle-up rotetmenuico"></i>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            </h5>
+                                        </div>
+                                
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                            <div class="card-body SideNavBody">
+                                                <div class="sideDropMenuList">
+                                                    <ul>
+                                                        <li><a href="#"><i class="fas fa-pencil-alt"></i>লেখক</a></li>
+                                                        <li><a href="#"><i class="fab fa-buffer"></i>বিষয়  </a></li>
+                                                        <li><a href="#">প্রকাশনী</a></li>
+                                                        <li><a href="#">স্টকের প্রোডাক্ট</a></li>
+                                                        <li><a href="#">ইসলামী বই</a></li>
+                                                        <li><a href="#">বইমেলা ২০২১</a></li>
+                                                        <li><a href="#">উপন্যাস</a></li>
+                                                        <li><a class="LooadMOreSIdeNAv" href="#">Load More...</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </div>
+                             </div>
+
+                             
+                        
+                        </div>
+
+
                     </div>
                     <span id="MobailSideNavBtn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
                 </div>
@@ -181,13 +230,6 @@
 
 
 
-
-
-
-
-
-  
-
 <!-- Mobail SideNavbar Code End -->
 
 
@@ -208,13 +250,31 @@
             });
 
             function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
+                document.getElementById("mySidenav").style.width = "200px";
+                }
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-    </script>
+                function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                }
+
+// $(document).ready(function(){
+//   $("button").click(function(){
+//     $(".rotetmenuico").addClass("rotetSucessfull");
+//   });
+// });
+
+// $(document).ready(function(){
+//   $("i").click(function(){
+//     $("#rmclass").removeClass("rotetSucessfull");
+//   });
+// });
+
+            $(document).ready(function(){
+            $("#rmclass").click(function(){
+                $(".rotetmenuico").toggleClass("rotetSucessfull");
+            });
+            });
+                </script>
 </body>
 </html>
 
