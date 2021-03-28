@@ -67,7 +67,9 @@
     #MobailHeader{
         display: none;
     }
-    
+    #mobailsearchBar{
+        display: none;
+    }
 }
 
 @media(max-width: 767px){
@@ -113,6 +115,33 @@
         width: 23%;
         float: left;
     }
+    .MobailSearchWrap input {
+        width: 31%;
+        border: solid #d1ddea 1px;
+            border-bottom-color: rgb(209, 221, 234);
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+        border-bottom-color: rgb(209, 221, 234);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-radius: 3px 0 0 3px !important;
+        border-bottom: 2px solid #ff9900;
+        transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        height: 45px;
+        line-height: 45px;
+        text-align: left;
+        padding: 20px;
+        font-size: 16px;
+        font-family: 'Lato';
+        color: #a8a8a8d9;
+    }
+    .MobailSearchWrap i {
+        background: #0397d3;
+        width: 5%;
+        color: #ffffff;
+        padding: 14px 18px;
+        border: none;
+    }
 }
 
 /*--------------------------------------------------------*/
@@ -139,6 +168,27 @@
         width: 15%;
         float: left;
     }
+    .MobailSearchWrap input {
+        width: 23%;
+        border: solid #d1ddea 1px;
+            border-bottom-color: rgb(209, 221, 234);
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+        border-bottom-color: rgb(209, 221, 234);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-radius: 3px 0 0 3px !important;
+        border-bottom: 2px solid #ff9900;
+        transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        height: 45px;
+        line-height: 45px;
+        text-align: left;
+        padding: 20px;
+        font-size: 16px;
+        font-family: 'Lato';
+        color: #a8a8a8d9;
+    }
+    
 }
 
 /*--------------------------------------------------------*/
@@ -149,6 +199,26 @@
     .mobail-cart-user {
         width: 8%;
         float: left;
+    }
+    .MobailSearchWrap input {
+        width: 15%;
+        border: solid #d1ddea 1px;
+            border-bottom-color: rgb(209, 221, 234);
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+        border-bottom-color: rgb(209, 221, 234);
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-radius: 3px 0 0 3px !important;
+        border-bottom: 2px solid #ff9900;
+        transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        height: 45px;
+        line-height: 45px;
+        text-align: left;
+        padding: 20px;
+        font-size: 16px;
+        font-family: 'Lato';
+        color: #a8a8a8d9;
     }
 }
 
