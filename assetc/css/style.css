@@ -65,6 +65,10 @@ section{
     display: none;
 }
 
+.mobail-cart-userWidth {
+  width: 15% !important;
+  float: right;
+}
   .mainLoginInput::-webkit-input-placeholder { 
   font-family: FontAwesome;
   font-weight: normal;
@@ -77,7 +81,7 @@ section{
   }
   
 #stickySearchBar {
-    width: 45%;
+    width: 70%;
     float: left;
     padding: 13px 10px 10px 10px;
     display: none;
@@ -90,6 +94,7 @@ section{
     border: solid 1px #ddd;
     border-bottom: 1px solid #ecac32;
     border-radius: 4px;
+    width: 100%;
   }
   .mainLoginInput::-moz-placeholder  { 
   font-family: FontAwesome;

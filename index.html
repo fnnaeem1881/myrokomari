@@ -312,7 +312,7 @@
                     <input class="mainLoginInput" type="text" placeholder="&#61442;"/> 
                 </div>
 
-                <div class="mobail-cart-user">
+                <div id="mobail-cart-user" class="mobail-cart-user">
                     <a id="userstickynone" href="#"><i class="far fa-user"></i></a>
                     <a href="#"><i class="fas fa-cart-plus"></i></a>
                 </div>
@@ -922,6 +922,18 @@
                 $("#stickySearchBar").addClass("stickySearchBar");
             }
             });
+
+            $(window).on('scroll',function(){
+            var scroll = $(window).scrollTop();
+            if(scroll<50){
+                $("#mobail-cart-user").removeClass("mobail-cart-userWidth");
+            }else{
+                $("#mobail-cart-user").addClass("mobail-cart-userWidth");
+            }
+            });
+
+
+            
             
                 </script>
 
