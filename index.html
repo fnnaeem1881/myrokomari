@@ -323,7 +323,7 @@
 <!-- Nivo SLider Design Start -->
 
 <section id="Nivo-Slider">
-    <div class="container">
+    <div class="container NivoContainer">
         <div class="slider-wrapper theme-default">
             <div id="NivoSlider" class="nivoSlider"> 
                 <a href="#">
@@ -351,13 +351,18 @@
                 <a href="#"> <img src="assetc/images/bannar3.png" alt=""></a>
             </div>
         </div>
+        
+    </div>
+   
+</section>
+<section id="LeaderTitle">
+    <div class="container">
         <div class="row">
             <div class="col-md-12 p-2">
                 <center><img class="LederTitle" src="assetc/images/leader-board-title.png" alt="" width="60%"></center>
             </div>
         </div>
     </div>
-   
 </section>
 
 <section id="RecentlySoldProduct">
@@ -821,7 +826,8 @@
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     infinite: true,
-                    dots: true
+                    dots: false,
+                    arrow: false
                 }
                 },
                 {

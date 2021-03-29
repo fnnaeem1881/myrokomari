@@ -480,7 +480,7 @@ nav .wrapper li a i:hover{
     position: relative;
     width: 100%;
     height: 327px;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .book-img-wrap {
     position: relative;
