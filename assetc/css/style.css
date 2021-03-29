@@ -33,7 +33,9 @@ body{
 input:focus {
     outline: none;
 }
-
+section{
+  padding:20px 0px;
+}
  /* font family */
  
  /*font-family: 'Open Sans', sans-serif;*/
@@ -44,14 +46,96 @@ input:focus {
  /*---------------------*/
 /* ///////////////////////////////////////////////////////////////////////////// */
 /* -------------------------------------------------------------------------------- */
+.mobailsearchBarSticky {
+    display: none;
+}
+.MobailHederSticky {
+    position: fixed;
+    z-index: 11111111111111111;
+    width: 100%;
+    background: #fff;
+}
+.stickylogonone{
+    display: none;
+}
+.userstickynone{
+    display: none;
+}
+.StickyNone {
+    display: none;
+}
 
+  .mainLoginInput::-webkit-input-placeholder { 
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: hsl(9, 40%, 60%);
+  }
+  
+#stickySearchBar {
+    width: 45%;
+    float: left;
+    padding: 13px 10px 10px 10px;
+    display: none;
+  }
+  .stickySearchBar {
+    display: block !important;
+}
+  .mainLoginInput {
+    padding: 0px 13px;
+    border: solid 1px #ddd;
+    border-bottom: 1px solid #ecac32;
+    border-radius: 4px;
+  }
+  .mainLoginInput::-moz-placeholder  { 
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: hsl(9, 40%, 60%);
+  }
+  
+  .mainLoginInput:-ms-input-placeholder  { 
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: hsl(9, 40%, 60%);
+  }
+.StickyMobail {
+    position: fixed;
+    z-index: 1111111111111111111;
+    background: #fff;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    display: block;
+}
 .top-menu-logo img {
     width: 110px;
     float: left;
 }
 
+#SticyHeder {
+  background: white;
+}
+.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 111111111111111;
+}
+
 div#top-menu {
-    padding: 20px 0px;
+    padding: 0px 0px 23px 0px;
 }
 .top-menu-search i {background: #0397d3;width: 8%;color: #ffffff;padding: 14px 18px;border: none;}
 
@@ -465,6 +549,12 @@ nav .wrapper li a i:hover{
 }
 
 
+#Nivo-Slider {
+    padding: 0;
+  }
+  #baner {
+    padding: 0;
+  }
 /* Nivo Slider End */
 
 /* Bannner Design */
@@ -547,7 +637,7 @@ nav .wrapper li a i:hover{
 }
 .view-dettails-wrap {
     overflow: hidden;
-    margin-top: 10px;
+    /*! margin-top: 10px; */
 }
 .view-dettails-wrap button {
     padding: 6px 20px;
@@ -587,6 +677,8 @@ nav .wrapper li a i:hover{
 }
 .ProductBancground {
     background: #FAF9F2;
+    /*! box-shadow: 1px 6px 7px 1px #b6b6b6; */
+    border-bottom: 2px solid #ddd;
 }
 .ProductSetcionTitle h3 {
     padding: 10px 15px;

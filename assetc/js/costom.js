@@ -18,6 +18,34 @@ function myFunction() {
 }
 
 
+<!-- headr fixed -->
+
+
+
+
+
+
+		$(window).on('scroll',function(){
+	var scroll = $(window).scrollTop();
+	if(scroll<20){
+		$("#text-color").removeClass("textmycolor");
+	}else{
+		$("#text-color").addClass("textmycolor");
+	}
+	});
+	
+	
+	
+	
+	
+
+
+
+
+	
+<!-- headr fiexd end  -->
+
+
 
 
 

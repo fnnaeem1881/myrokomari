@@ -30,9 +30,9 @@
 </head>
 <body>
     <!--------------------------- logo and searchbar with stcky quality ----------------------->
-    <header id="DesktopHeader">   
-        <div class="container">
 
+    <header id="SticyHeder">
+        .<div class="container">
             <div id="top-menu">
                 <div class="row">
                     <div class="col-md-2">
@@ -61,6 +61,12 @@
                 </div>
             </div>
 
+        </div>
+    </header>
+    <header id="DesktopHeader">   
+        <div class="container">
+
+           
     
    
            <!----------------------------------- second navbar ----------------------------------->
@@ -296,20 +302,25 @@
 
 
                     </div>
-                    <span id="MobailSideNavBtn" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+                    <span id="MobailSideNavBtn" style="font-size:30px;cursor:pointer" onclick="stickyNav()">&#9776; </span>
                 </div>
-                <div class="mobail-NavLogo">
+                <div id="stickylogonone" class="mobail-NavLogo">
                    <a href="#"><img src="assetc/images/logo.png " alt=""></a>
+                   
                 </div>
+                <div id="stickySearchBar"  class="SarcheBarSticky">
+                    <input class="mainLoginInput" type="text" placeholder="&#61442;"/> 
+                </div>
+
                 <div class="mobail-cart-user">
-                    <a href="#"><i class="far fa-user"></i></a>
+                    <a id="userstickynone" href="#"><i class="far fa-user"></i></a>
                     <a href="#"><i class="fas fa-cart-plus"></i></a>
                 </div>
             </div>
         </div>
     </header>
     <div id="mobailsearchBar">
-        <div class="container">
+        <div  class="container">
             <div class="MobailSearchWrap">
                 <input id="SearchTypedJs" type="text" placeholder=""><i class="fa fa-search"></i>
             </div>
@@ -317,6 +328,8 @@
     </div>
 
 <!-- Mobail SideNavbar Code End -->
+
+
 
 
 
@@ -358,7 +371,7 @@
 <section id="LeaderTitle">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 p-2">
+            <div class="col-md-12">
                 <center><img class="LederTitle" src="assetc/images/leader-board-title.png" alt="" width="60%"></center>
             </div>
         </div>
@@ -398,7 +411,7 @@
                             </div>
                             <div class="product-cart-text">
                                 <div class="book-title">
-                                    <p>মুখোশ</p>
+                                    <p>মুখোশ </p>
                                 </div>
                                 <div class="book-price">
                                     <div class="book-orginal-price">
@@ -761,7 +774,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous"></script>
-    <script src="/assetc/js/costom.js"></script>
+    <script type="text/javascript" src="assetc/js/costom.js"></script>
     <script type="text/javascript" src="assetc/js/jquery.nivo.slider.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js" integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ==" crossorigin="anonymous"></script>
     <script>
@@ -774,9 +787,11 @@
             loop:true
             });
 
-            function openNav() {
+      
+                function stickyNav() {
                 document.getElementById("mySidenav").style.width = "265px";
                 }
+                
 
                 function closeNav() {
                 document.getElementById("mySidenav").style.width = "0";
@@ -849,6 +864,65 @@
                 // instead of a settings object
             ]
             });
+
+                    $(window).on('scroll',function(){
+            var scroll = $(window).scrollTop();
+            if(scroll<20){
+                $("#SticyHeder").removeClass("sticky");
+            }else{
+                $("#SticyHeder").addClass("sticky");
+            }
+            });
+            
+
+             
+            $(window).on('scroll',function(){
+            var scroll = $(window).scrollTop();
+            if(scroll<20){
+                $("#MobailHeader").removeClass("MobailHederSticky");
+            }else{
+                $("#MobailHeader").addClass("MobailHederSticky");
+            }
+            });
+
+            $(window).on('scroll',function(){
+            var scroll = $(window).scrollTop();
+            if(scroll<20){
+                $("#mobailsearchBar").removeClass("mobailsearchBarSticky");
+            }else{
+                $("#mobailsearchBar").addClass("mobailsearchBarSticky");
+            }
+            });
+
+
+            $(window).on('scroll',function(){
+            var scroll = $(window).scrollTop();
+            if(scroll<50){
+                $("#stickylogonone").removeClass("stickylogonone");
+            }else{
+                $("#stickylogonone").addClass("stickylogonone");
+            }
+            });
+
+
+            $(window).on('scroll',function(){
+            var scroll = $(window).scrollTop();
+            if(scroll<50){
+                $("#userstickynone").removeClass("userstickynone");
+            }else{
+                $("#userstickynone").addClass("userstickynone");
+            }
+            });
+
+            $(window).on('scroll',function(){
+            var scroll = $(window).scrollTop();
+            if(scroll<50){
+                $("#stickySearchBar").removeClass("stickySearchBar");
+            }else{
+                $("#stickySearchBar").addClass("stickySearchBar");
+            }
+            });
+            
                 </script>
 
                 <!-- Nivo Slider Script -->

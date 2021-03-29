@@ -70,9 +70,15 @@
     #mobailsearchBar{
         display: none;
     }
+    #StcikyMobailNavbar {
+        display: none;
+    }
 }
 
 @media(max-width: 767px){
+    #SticyHeder{
+        display: none;
+    }
 
     #DesktopHeader{
         display: none;
