@@ -13,8 +13,10 @@
 /*--------------------------------------------------------*/
 /*--------------------------------------------------------*/
 
-@media (max-width: 1100px){
-
+@media (max-width: 1200px){
+    #top-catagory-list .col-md-2 {
+        margin-left: 32px;
+    }
 }
 
 /*--------------------------------------------------------*/
@@ -29,6 +31,7 @@
 
 
 @media(max-width: 991px){
+    .top-menu-search i {background: #0397d3;width: 10%;color: #ffffff;padding: 14px 15px;border: none;}
     .navi ul {
         display: block;
         text-align: left;
@@ -59,6 +62,19 @@
     padding: 10px 40px;
     font-size: 12px;
   }
+  .hvr-sweep-to-right.top-catagory-list-btn {
+    padding: 15px 11px;
+    border-radius: 6px;
+    border: solid 1px #ddd;
+    box-shadow: 0 1px 1px 0 #d3d5d9;
+    background: #fff;
+    color: #7e7e7e;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+#top-catagory-list .col-md-2 {
+    margin-left: 23px;
+}
 }
 
 /*--------------------------------------------------------*/
@@ -79,7 +95,7 @@
     #SticyHeder{
         display: none;
     }
-
+  
     #DesktopHeader{
         display: none;
     }
@@ -101,7 +117,13 @@
     .slick-prev.slick-arrow{
         display: none!important;
     }
-
+    #top-catagory-list .col-md-2 {
+        margin-left: 15px;
+        width: 30%;
+    }
+    #top-catagory-list .col-md-2:last-child {
+        display: none;
+    }
 
 }
 
@@ -170,6 +192,9 @@
     #RecentlySoldProduct {
         display: none;
     }
+    #desktop-View{
+        display: none;
+    }
 }
 
 /*--------------------------------------------------------*/
@@ -199,6 +224,14 @@
         background: #fff;
         border: solid 1px tomato;
         padding: 5px;
+    }
+
+    #top-catagory-list .col-md-2 {
+        margin-left: 15px;
+        width: 44%;
+    }
+    #top-catagory-list .col-md-2:last-child {
+        display: block;
     }
 }
 /*--------------------------------------------------------*/
@@ -330,6 +363,16 @@
         background: #fff;
         border: solid 1px tomato;
         padding: 5px;
+    }
+    .hvr-sweep-to-right.top-catagory-list-btn {
+        padding: 15px 11px;
+        border-radius: 6px;
+        border: solid 1px #ddd;
+        box-shadow: 0 1px 1px 0 #d3d5d9;
+        background: #fff;
+        color: #7e7e7e;
+        margin-bottom: 20px;
+        font-size: 9px;
     }
 }
 

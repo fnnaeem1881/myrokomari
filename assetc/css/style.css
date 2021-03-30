@@ -681,9 +681,9 @@ nav .wrapper li a i:hover{
     transition: .15s ease-in-out;
 }
 .ProductBancground {
-    background: #FAF9F2;
-    /*! box-shadow: 1px 6px 7px 1px #b6b6b6; */
+    background: -webkit-linear-gradient(rgba(252, 250, 238, 0.6), rgba(252, 250, 238, 0.6)), url(../images/pattern_6.png);
     border-bottom: 2px solid #ddd;
+    box-shadow: 0px 4px 6px -3px #9c9c9c;
 }
 .ProductSetcionTitle h3 {
     padding: 10px 15px;
@@ -797,3 +797,37 @@ nav .wrapper li a i:hover{
   .MobailViewProductSetcionTitle h3 {
     font-size: 15px;
   }
+
+  /* TOpCatagori Style */
+
+  .hvr-sweep-to-right.top-catagory-list-btn {
+    padding: 15px 12px;
+    border-radius: 6px;
+    border: solid 1px #ddd;
+    box-shadow: 0 1px 1px 0 #d3d5d9;
+    background: #fff;
+    color: #7e7e7e;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.hvr-sweep-to-right.top-catagory-list-btn i {
+    padding-left: 20px;
+}
+#top-catagory-list .col-md-2 {
+    margin-left: 40px;
+}
+#top-catagory-list {
+    padding: 0;
+}
+#top-catagory-list .col-md-2:nth-child(1){
+    margin-left: 15px;
+}
+#top-catagory-list .col-md-2:nth-child(6){
+    margin-left: 15px;
+}
+.hvr-sweep-to-right.top-catagory-list-btn:hover span {
+    color: #fff;
+}
+.hvr-sweep-to-right.top-catagory-list-btn:hover i {
+    color: #fff;
+}
