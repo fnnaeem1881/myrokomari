@@ -167,6 +167,9 @@
         padding: 15px 15px;
         border: none;
     }
+    #RecentlySoldProduct {
+        display: none;
+    }
 }
 
 /*--------------------------------------------------------*/
@@ -175,13 +178,29 @@
 
 
 @media(min-width: 575px){
-   
+   #mobailViewDeisgn{
+       display: none;
+   }
 }
 
 /*--------------------------------------------------------*/
 /*--------------------------------------------------------*/
 
+@media(max-width:500px){
 
+    .Mobailbook-price {
+        width: 60%;
+        margin: auto;
+    }
+    .Mobailadd-toCard-btn {
+        width: 55%;
+        display: block;
+        margin: auto;
+        background: #fff;
+        border: solid 1px tomato;
+        padding: 5px;
+    }
+}
 /*--------------------------------------------------------*/
 /*--------------------------------------------------------*/
 
@@ -237,6 +256,18 @@
     height: 327px;
     overflow: visible;
 }
+.Mobailadd-toCard-btn {
+    width: 70%;
+    display: block;
+    margin: auto;
+    background: #fff;
+    border: solid 1px tomato;
+    padding: 5px;
+}
+.Mobailbook-price {
+    width: 69%;
+    margin: auto;
+}
     
 }
 
@@ -287,6 +318,18 @@
         color: #ffffff;
         padding: 15px 15px;
         border: none;
+    }
+    .Mobailbook-price {
+        width: 90%;
+        margin: auto;
+    }
+    .Mobailadd-toCard-btn {
+        width: 85%;
+        display: block;
+        margin: auto;
+        background: #fff;
+        border: solid 1px tomato;
+        padding: 5px;
     }
 }
 

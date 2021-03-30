@@ -677,7 +677,7 @@ nav .wrapper li a i:hover{
     background: #FAF9F2;;
     height: 84%;
     overflow: hidden;
-    box-shadow: 11px -2px 20px 12px #ddd;
+    box-shadow: inset 0px 0px 7px 0px #cdcdcd;
     transition: .15s ease-in-out;
 }
 .ProductBancground {
@@ -718,3 +718,82 @@ nav .wrapper li a i:hover{
     color: #000;
   }
 
+
+
+  /* Mobile View Design Start */
+  
+.mobaileViewWidth {
+    width: 50%;
+    float: left;
+    margin-bottom: 25px;
+  }
+  .Mobailbook-img-wrap img {
+    margin: auto;
+    display: block;
+  }
+  .Mobailbook-img-wrap {
+    padding: 10px;
+    position: relative;
+  }
+  .Mobaildiscount-badge {
+    position: absolute;
+    top: 10px;
+    left: 11%;
+  }
+  .Mobaildiscount-badge b {
+    position: absolute;
+    top: 5px;
+    color: #000;
+    left: 20%;
+  }
+  .MobailinsideDisc {
+    position: absolute;
+    bottom: 10px;
+    right: 23%;
+    width: 30%;
+  }
+  
+.Mobailbook-price {
+    width: 51%;
+    margin: auto;
+  }
+  .Mobailbook-orginal-price {
+    width: 50%;
+    float: left;
+  }
+  .Mobailadd-toCard-btn {
+    width: 50%;
+    display: block;
+    margin: auto;
+    background: #fff;
+    border: solid 1px tomato;
+    padding: 5px;
+}
+.Mobailadd-toCard-btn i{
+    color: tomato;
+}
+.Mobailadd-toCard-btn b{
+    color: tomato;
+}
+.Mobailbook-title {
+    text-align: center;
+}
+.Mobailbook-title p {
+    margin: 0;
+}
+
+.col-md-12.MovileViewProductBtn button {
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 17px;
+}
+#MobaileViewPreOrderBook {
+    border-bottom: 1px solid #ddd;
+}
+.MobailViewProductSetcionTitle {
+    padding: 15px 0px;
+  }
+  .MobailViewProductSetcionTitle h3 {
+    font-size: 15px;
+  }
