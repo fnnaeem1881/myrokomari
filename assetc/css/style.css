@@ -917,3 +917,8 @@ nav .wrapper li a i:hover{
     width: 45%;
     margin-left: 5%;
 }
+
+.writerWarp img {
+    border-radius: 50%;
+    padding: 25px;
+}
