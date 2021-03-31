@@ -23,7 +23,12 @@
 /*--------------------------------------------------------*/
 
 @media (max-width:1100px){
- 
+    .featuretext {
+        width: 80%;
+        float: left;
+        font-size: 62%;
+        padding: 0px 10px;
+    }
 }
 
 /*--------------------------------------------------------*/
@@ -75,21 +80,17 @@
 #top-catagory-list .col-md-2 {
     margin-left: 23px;
 }
-#WriterSliderSection {
-    width: 100%;
-    background: #fff;
-    box-shadow: 0px 4px 6px -3px #9c9c9c;
+.featureicon i {
+    font-size: 29px;
+    padding: 2px 0px;
 }
-#WriterSliderSection .SectionBancground{
-    width: 100%;
-    background: #fff;
-    box-shadow: none;
-}
+
 }
 
 /*--------------------------------------------------------*/
 /*--------------------------------------------------------*/
 @media(min-width: 768px){
+    
     #MobailHeader{
         display: none;
     }
@@ -152,6 +153,27 @@
     }
     .SectionBancground .col-md-6 {
         width: 50%;
+    }
+    .subscribetext h1 {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: #333333;
+    }
+    .SubscribeForm input {
+        padding: 10px 20px;
+        width: 55%;
+        border: solid 1px #ddd;
+        border-radius: 4px;
+    }
+    #rokomariFeture .col-md-3 {
+        width: 50%;
+    }
+    .featuretext {
+        width: 80%;
+        float: left;
+        font-size: 11px;
+        text-align: center;
     }
 }
 
@@ -223,6 +245,16 @@
     .DesktopView{
         display: none;
     }
+     #Subscribe {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 4px 6px -3px #9c9c9c;
+}
+    #Subscribe .SectionBancground{
+        width: 100%;
+        background: #fff;
+        box-shadow: none;
+    } 
 }
 
 /*--------------------------------------------------------*/
@@ -233,6 +265,9 @@
 @media(min-width: 576px){
    #mobailViewDeisgn{
        display: none;
+   }
+   #MobailRecentView{
+    display: none;
    }
 }
 
@@ -260,6 +295,26 @@
     }
     #top-catagory-list .col-md-2:last-child {
         display: block;
+    }
+    .SubscribeForm input {
+        padding: 6px 20px;
+        width: 50%;
+        border: solid 1px #ddd;
+        border-radius: 4px;
+        margin-bottom: 15px;
+    }
+    .maleBtnSubscribe.btn.btn-outline-primary {
+        padding: 5px 16px;
+        margin: 12px;
+            margin-top: 12px;
+        margin-top: 12px;
+        margin-top: 5px;
+    }
+    .FemaleBtnSubscribe.btn.btn-outline-primary {
+        padding: 5px 11px;
+        margin-top: -5px;
+        color: tomato;
+        border: solid 1px tomato !important;
     }
 }
 /*--------------------------------------------------------*/
@@ -328,6 +383,13 @@
 .Mobailbook-price {
     width: 69%;
     margin: auto;
+}
+.SubscribeForm input {
+    padding: 6px 20px;
+    width: 100%;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
 }
     
 }
