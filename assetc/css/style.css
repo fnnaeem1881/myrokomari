@@ -575,7 +575,7 @@ nav .wrapper li a i:hover{
     position: relative;
     width: 100%;
     height: 327px;
-    /* overflow: hidden; */
+   
   }
   .book-img-wrap {
     position: relative;
@@ -591,7 +591,6 @@ nav .wrapper li a i:hover{
     top: 5px;
     color: #000;
     left: 20%;
-    font-size: ;
   }
   .insideDisc {
     position: absolute;
@@ -792,9 +791,7 @@ nav .wrapper li a i:hover{
     margin-bottom: 25px;
     margin-top: 17px;
 }
-#MobaileViewPreOrderBook {
-    border-bottom: 1px solid #ddd;
-}
+
 .MobailViewProductSetcionTitle {
     padding: 15px 0px;
   }
@@ -892,4 +889,31 @@ nav .wrapper li a i:hover{
 }
 #OfferGif .col-md-12 {
     padding: 0px 18px;
+}
+
+
+/* Mobail Fevorit Section Style */
+
+#MobailFevorit .col-md-2 {
+    width: 50%;
+    float: left;
+}
+#MobailFevorit {
+    overflow: hidden;
+    background: #FFF;
+    box-shadow: 0px 4px 6px -3px #9c9c9c;
+    margin-top: 20px;
+}
+.PreOrderBookProductBancground {
+    background: #FFF;
+    box-shadow: 0px 4px 6px -3px #9c9c9c;
+}
+.MobailBackground {
+    background: #FFF;
+    box-shadow: 0px 4px 6px -3px #9c9c9c;
+}
+
+#MobailTopCatagoriList .col-md-2 {
+    width: 45%;
+    margin-left: 5%;
 }

@@ -100,7 +100,7 @@
         display: none;
     }
     .book-orginal-price p {
-        padding-left: 30px;
+        padding-left: 25px;
         font-weight: bold;
     }
     .container.NivoContainer {
@@ -217,7 +217,7 @@
 
 
 
-@media(min-width: 575px){
+@media(min-width: 576px){
    #mobailViewDeisgn{
        display: none;
    }
