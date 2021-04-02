@@ -175,6 +175,13 @@
         font-size: 11px;
         text-align: center;
     }
+    .large-footer .container {
+        max-width: 100%;
+        padding: 0px 30px;
+    }
+    #ShopBy .col-md-4 {
+        width: 50%;
+    }
 }
 
 /*--------------------------------------------------------*/
@@ -255,6 +262,36 @@
         background: #fff;
         box-shadow: none;
     } 
+    .social-links {
+        display: none;
+    }
+    .footer-all-links {
+        display: none;
+    }
+    .facebook-page {
+        display: none;
+    }
+    .footer-basic-info {
+        width: 50%;
+        float: left;
+    }
+    .footer-logo {
+        width: 50% !important;
+        float: left;
+    }
+    .footer-logo img {
+        margin-top: 40%;
+    }
+    .payment-options-row {
+        display: none;
+    }
+    .company-summery-row {
+        display: none;
+    }
+    .title{
+        text-align: center;
+    }
+   
 }
 
 /*--------------------------------------------------------*/
