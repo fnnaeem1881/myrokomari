@@ -441,6 +441,24 @@
 
 
 @media(max-width: 350px){
+    .img3 img {
+        position: absolute;
+        width: 62px;
+        height: 62px;
+        border: 2px solid #feb204;
+        border-radius: 50%;
+        top: 60px;
+        left: 225px;
+    }
+    .img1 img {
+        position: absolute;
+        width: 62px;
+        height: 62px;
+        border: 2px solid #feb204;
+        border-radius: 50%;
+        top: 50px;
+        left: 53px;
+    }
     .navBtn {
         width: 13%;
         float: left;

@@ -1297,7 +1297,9 @@ nav .wrapper li a i:hover{
    padding-left: 20px;
    margin-bottom: 20px;
 }
-
+.footer-all-links .col {
+    padding: 0;
+}
 #AccrodingSection .col-md-4:first-child {
     padding-left: 0px;
 }
