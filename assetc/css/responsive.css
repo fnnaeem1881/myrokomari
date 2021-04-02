@@ -182,6 +182,10 @@
     #ShopBy .col-md-4 {
         width: 50%;
     }
+    #AccrodingSection .col-md-4 {
+        padding-left: 0px;
+        margin-bottom: 20px;
+    }
 }
 
 /*--------------------------------------------------------*/
